@@ -1,5 +1,3 @@
-# Templates
+# Templates Folder
 
-Stores base resume template files used by the agent.
-
-Templates should be Jinja2-compatible `.docx` or `.html` files with placeholder variables (e.g., `{{ name }}`, `{{ experience }}`). The agent selects and populates the appropriate template during the generation step.
+AGENT INSTRUCTION: This folder contains Jinja2-compatible base templates (.html or .docx). Once you have created the tailored content in the Consolidated_data folder, you must map that data into one of these templates.

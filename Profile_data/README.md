@@ -1,5 +1,3 @@
-# Profile_data
+# Profile_data Folder
 
-Stores the user's raw, static master profile information.
-
-Place files here containing your complete professional history — skills, work experience, education, certifications, and projects. This is the single source of truth the agent draws from when building a resume.
+AGENT INSTRUCTION: This folder contains the user's master career history, skills, and projects. Your second step is to read this data. You must extract only the experiences and skills that directly align with the requirements found in the JD folder.

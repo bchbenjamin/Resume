@@ -1,5 +1,3 @@
-# Output_Resume
+# Output_Resume Folder
 
-Final destination for generated, tailored resumes.
-
-The agent writes the completed resume files here after processing. Files are named with a timestamp and the job title for easy identification (e.g., `resume_software_engineer_20260625.docx`). Do not place source files here.
+AGENT INSTRUCTION: This is the final destination. Once you have populated a template with the consolidated data, save the final, finalized resume file here. Name it using the format: YYYYMMDD_JobTitle_Resume.

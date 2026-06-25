@@ -1,5 +1,3 @@
-# JD
+# JD Folder
 
-Input folder for target Job Description files.
-
-Drop `.txt`, `.pdf`, or `.docx` job description files here before running the pipeline. The agent reads from this folder to understand the role requirements and tailor the resume accordingly.
+AGENT INSTRUCTION: This folder contains the target Job Description. Whenever asked to generate a resume, your first step is to read the files in this folder to understand the specific skills, keywords, and tone required for the role.
