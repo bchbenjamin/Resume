@@ -1,0 +1,49 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.bak
+
+# Output files (optional - uncomment if you don't want to track generated resumes)
+Output_Resume/*.docx
+Output_Resume/*.pdf
+Output_Resume/*.html
+
+# Extracted text files
+*_extracted.txt
+
+# Personal data (keep private)
+Profile_data/LinkedIn Data/*
+Profile_data/Previous Resumes/*
