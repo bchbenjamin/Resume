@@ -26,10 +26,19 @@ def extract_docx(path: str) -> str:
     return "\n".join(p.text for p in Document(path).paragraphs if p.text.strip())
 
 
+def extract_html(path: str) -> str:
+    import re
+    with open(path, "r", encoding="utf-8") as f:
+        raw = f.read()
+    return re.sub(r"<[^>]+>", " ", raw).strip()
+
+
 EXTRACTORS = {
     ".txt":  extract_txt,
     ".pdf":  extract_pdf,
     ".docx": extract_docx,
+    ".html": extract_html,
+    ".htm":  extract_html,
 }
 
 
